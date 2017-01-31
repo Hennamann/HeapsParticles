@@ -1,0 +1,14 @@
+{
+  "name": "HeapsParticles",
+  "url" : "https://github.com/Grabli66/HeapsParticles",
+  "license": "MIT",
+  "tags": ["cross"],
+  "description": "2D particles for heaps engine",
+  "version": "0.9.0",
+  "classPath": "src/",
+  "releasenote": "Initial release",
+  "contributors": ["Grabli66"],
+  "dependencies": {
+    "heaps": ""    
+  }
+}
