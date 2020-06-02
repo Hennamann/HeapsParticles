@@ -4,13 +4,13 @@ import particles.util.*;
 
 import h2d.SpriteBatch;
 import h2d.Tile;
-import h2d.Sprite;
+import h2d.Object;
 import h2d.BlendMode;
 
 /**
     Particle emitter
 **/
-class Particles2D extends Sprite {
+class Particles2D extends Object {
     public static inline var EMITTER_TYPE_GRAVITY : Int = 0;
     public static inline var EMITTER_TYPE_RADIAL : Int = 1;
 
@@ -138,7 +138,7 @@ class Particles2D extends Sprite {
     /**
         Constructor
     **/
-    public function new (?parent : Sprite) {
+    public function new (?parent : Object) {
         super (parent);                
         texture = Tile.fromColor (0xFF0000, 16, 16);        
     }
